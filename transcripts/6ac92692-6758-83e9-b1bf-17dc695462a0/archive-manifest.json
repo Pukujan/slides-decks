@@ -1,0 +1,45 @@
+{
+  "source_url": "https://chatgpt.com/share/6ac92692-6758-83e9-b1bf-17dc695462a0",
+  "record_count": 414,
+  "roles": {
+    "user": 46,
+    "assistant": 176,
+    "tool": 192
+  },
+  "content_types": {
+    "multimodal_text": 10,
+    "text": 305,
+    "code": 95,
+    "execution_output": 4
+  },
+  "attachment_reference_count": 16,
+  "included": [
+    "user messages",
+    "visible assistant messages",
+    "assistant tool-call payloads",
+    "tool outputs",
+    "attachment references"
+  ],
+  "excluded": [
+    "system/developer messages",
+    "private thoughts and reasoning recap messages",
+    "hidden assistant prose"
+  ],
+  "message_files": [
+    "messages-001.jsonl",
+    "messages-002.jsonl",
+    "messages-003.jsonl",
+    "messages-004.jsonl",
+    "messages-005.jsonl",
+    "messages-006.jsonl",
+    "messages-007.jsonl",
+    "messages-008.jsonl",
+    "messages-009.jsonl",
+    "messages-010.jsonl",
+    "messages-011.jsonl",
+    "messages-012.jsonl",
+    "messages-013.jsonl"
+  ],
+  "source_full_response_not_published": true,
+  "attachment_binary_status": "The public share API returned asset references. The underlying file endpoints returned HTTP 401, so original binary attachments could not be fetched without authenticated access."
+}
