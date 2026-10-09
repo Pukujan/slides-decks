@@ -1,0 +1,470 @@
+[
+  {
+    "node_id": "5f954e82-ea30-4e6a-ab3e-f5645e26a6a5",
+    "part_index": 0,
+    "part": {
+      "content_type": "image_asset_pointer",
+      "asset_pointer": "sediment://file_00000000d92481f5b11cd3f3bc8dcfd6?shared_conversation_id=6ac92692-6758-83e9-b1bf-17dc695462a0",
+      "mime_type": "image/png",
+      "size_bytes": 301081,
+      "width": 828,
+      "height": 1792,
+      "metadata": {
+        "sanitized": true
+      }
+    }
+  },
+  {
+    "node_id": "5f954e82-ea30-4e6a-ab3e-f5645e26a6a5",
+    "part_index": 1,
+    "part": {
+      "content_type": "image_asset_pointer",
+      "asset_pointer": "sediment://file_000000000d30822fafeafad7dde67eb9?shared_conversation_id=6ac92692-6758-83e9-b1bf-17dc695462a0",
+      "mime_type": "image/jpeg",
+      "size_bytes": 231785,
+      "width": 828,
+      "height": 1792,
+      "metadata": {
+        "sanitized": true
+      }
+    }
+  },
+  {
+    "node_id": "5f954e82-ea30-4e6a-ab3e-f5645e26a6a5",
+    "part_index": 2,
+    "part": {
+      "content_type": "image_asset_pointer",
+      "asset_pointer": "sediment://file_0000000066e481f5bdfff7189ec31dbd?shared_conversation_id=6ac92692-6758-83e9-b1bf-17dc695462a0",
+      "mime_type": "image/png",
+      "size_bytes": 450909,
+      "width": 828,
+      "height": 1792,
+      "metadata": {
+        "sanitized": true
+      }
+    }
+  },
+  {
+    "node_id": "5f954e82-ea30-4e6a-ab3e-f5645e26a6a5",
+    "part_index": 3,
+    "part": {
+      "content_type": "image_asset_pointer",
+      "asset_pointer": "sediment://file_00000000538c81f5bf942a6b597d4bdd?shared_conversation_id=6ac92692-6758-83e9-b1bf-17dc695462a0",
+      "mime_type": "image/jpeg",
+      "size_bytes": 184013,
+      "width": 828,
+      "height": 1434,
+      "metadata": {
+        "sanitized": true
+      }
+    }
+  },
+  {
+    "node_id": "30b63aa8-27cf-4329-979b-226bcc632f12",
+    "part_index": 0,
+    "part": {
+      "content_type": "image_asset_pointer",
+      "asset_pointer": "sediment://file_00000000fe88820eac0f2b39ee2ad5ee?shared_conversation_id=6ac92692-6758-83e9-b1bf-17dc695462a0",
+      "mime_type": "image/png",
+      "size_bytes": 1704866,
+      "width": 1122,
+      "height": 1402,
+      "metadata": {
+        "dalle": {
+          "gen_id": "db17e2ae-7adf-4fd3-b95e-6c927ed65594",
+          "prompt": "",
+          "serialization_title": "DALL-E generation metadata"
+        },
+        "generation": {
+          "gen_id": "db17e2ae-7adf-4fd3-b95e-6c927ed65594",
+          "gen_size": "image",
+          "gen_size_v2": "48",
+          "height": 1402,
+          "width": 1122,
+          "transparent_background": false,
+          "is_sticker": false,
+          "serialization_title": "Image Generation metadata",
+          "orientation": "portrait",
+          "projection": "rectilinear"
+        },
+        "container_pixel_height": 1402,
+        "container_pixel_width": 1122,
+        "sanitized": false
+      }
+    }
+  },
+  {
+    "node_id": "b60d7c3d-fbc4-4972-9a9a-f987c9803348",
+    "part_index": 0,
+    "part": {
+      "content_type": "image_asset_pointer",
+      "asset_pointer": "sediment://file_00000000fe88820eac0f2b39ee2ad5ee?shared_conversation_id=6ac92692-6758-83e9-b1bf-17dc695462a0",
+      "mime_type": "image/png",
+      "size_bytes": 1704866,
+      "width": 1122,
+      "height": 1402,
+      "metadata": {
+        "dalle": {
+          "gen_id": "db17e2ae-7adf-4fd3-b95e-6c927ed65594",
+          "prompt": "",
+          "serialization_title": "DALL-E generation metadata"
+        },
+        "generation": {
+          "gen_id": "db17e2ae-7adf-4fd3-b95e-6c927ed65594",
+          "gen_size": "image",
+          "gen_size_v2": "48",
+          "height": 1402,
+          "width": 1122,
+          "transparent_background": false,
+          "is_sticker": false,
+          "serialization_title": "Image Generation metadata",
+          "orientation": "portrait",
+          "projection": "rectilinear"
+        },
+        "container_pixel_height": 1402,
+        "container_pixel_width": 1122,
+        "sanitized": false
+      }
+    }
+  },
+  {
+    "node_id": "36ab5599-d924-4603-a2f3-c43817f1a3e8",
+    "part_index": 0,
+    "part": {
+      "content_type": "image_asset_pointer",
+      "asset_pointer": "sediment://file_000000007e5481f5b55b016f69a95bb9?shared_conversation_id=6ac92692-6758-83e9-b1bf-17dc695462a0",
+      "mime_type": "image/png",
+      "size_bytes": 2016395,
+      "width": 1122,
+      "height": 1402,
+      "metadata": {
+        "dalle": {
+          "gen_id": "f7563fd5-c2a2-4814-a10f-f652672f67a3",
+          "prompt": "",
+          "serialization_title": "DALL-E generation metadata"
+        },
+        "generation": {
+          "gen_id": "f7563fd5-c2a2-4814-a10f-f652672f67a3",
+          "gen_size": "image",
+          "gen_size_v2": "48",
+          "height": 1402,
+          "width": 1122,
+          "transparent_background": false,
+          "is_sticker": false,
+          "serialization_title": "Image Generation metadata",
+          "orientation": "portrait",
+          "projection": "rectilinear"
+        },
+        "container_pixel_height": 1402,
+        "container_pixel_width": 1122,
+        "sanitized": false
+      }
+    }
+  },
+  {
+    "node_id": "36ab5599-d924-4603-a2f3-c43817f1a3e8",
+    "part_index": 1,
+    "part": {
+      "content_type": "image_asset_pointer",
+      "asset_pointer": "sediment://file_00000000a8f4820682ac65988f426cf7?shared_conversation_id=6ac92692-6758-83e9-b1bf-17dc695462a0",
+      "mime_type": "image/png",
+      "size_bytes": 1782389,
+      "width": 1122,
+      "height": 1402,
+      "metadata": {
+        "dalle": {
+          "gen_id": "d9d0b881-b45d-4463-9505-0458cd26d0b5",
+          "prompt": "",
+          "serialization_title": "DALL-E generation metadata"
+        },
+        "generation": {
+          "gen_id": "d9d0b881-b45d-4463-9505-0458cd26d0b5",
+          "gen_size": "image",
+          "gen_size_v2": "48",
+          "height": 1402,
+          "width": 1122,
+          "transparent_background": false,
+          "is_sticker": false,
+          "serialization_title": "Image Generation metadata",
+          "orientation": "portrait",
+          "projection": "rectilinear"
+        },
+        "container_pixel_height": 1402,
+        "container_pixel_width": 1122,
+        "sanitized": false
+      }
+    }
+  },
+  {
+    "node_id": "36ab5599-d924-4603-a2f3-c43817f1a3e8",
+    "part_index": 2,
+    "part": {
+      "content_type": "image_asset_pointer",
+      "asset_pointer": "sediment://file_00000000ad6c81f593a03f42e35c4cda?shared_conversation_id=6ac92692-6758-83e9-b1bf-17dc695462a0",
+      "mime_type": "image/png",
+      "size_bytes": 2036907,
+      "width": 1122,
+      "height": 1402,
+      "metadata": {
+        "dalle": {
+          "gen_id": "cbe0a0ef-7b18-4414-bc4c-e97c8bfe89e2",
+          "prompt": "",
+          "serialization_title": "DALL-E generation metadata"
+        },
+        "generation": {
+          "gen_id": "cbe0a0ef-7b18-4414-bc4c-e97c8bfe89e2",
+          "gen_size": "image",
+          "gen_size_v2": "48",
+          "height": 1402,
+          "width": 1122,
+          "transparent_background": false,
+          "is_sticker": false,
+          "serialization_title": "Image Generation metadata",
+          "orientation": "portrait",
+          "projection": "rectilinear"
+        },
+        "container_pixel_height": 1402,
+        "container_pixel_width": 1122,
+        "sanitized": false
+      }
+    }
+  },
+  {
+    "node_id": "36ab5599-d924-4603-a2f3-c43817f1a3e8",
+    "part_index": 3,
+    "part": {
+      "content_type": "image_asset_pointer",
+      "asset_pointer": "sediment://file_000000002b7081f8ae6a724e50f0aaaa?shared_conversation_id=6ac92692-6758-83e9-b1bf-17dc695462a0",
+      "mime_type": "image/png",
+      "size_bytes": 2032461,
+      "width": 1122,
+      "height": 1402,
+      "metadata": {
+        "dalle": {
+          "gen_id": "70cd513a-4f41-4256-b636-666e0bad5d44",
+          "prompt": "",
+          "serialization_title": "DALL-E generation metadata"
+        },
+        "generation": {
+          "gen_id": "70cd513a-4f41-4256-b636-666e0bad5d44",
+          "gen_size": "image",
+          "gen_size_v2": "48",
+          "height": 1402,
+          "width": 1122,
+          "transparent_background": false,
+          "is_sticker": false,
+          "serialization_title": "Image Generation metadata",
+          "orientation": "portrait",
+          "projection": "rectilinear"
+        },
+        "container_pixel_height": 1402,
+        "container_pixel_width": 1122,
+        "sanitized": false
+      }
+    }
+  },
+  {
+    "node_id": "224eec54-a2f3-4238-9613-4369c4de81c2",
+    "part_index": 0,
+    "part": {
+      "content_type": "image_asset_pointer",
+      "asset_pointer": "sediment://file_00000000a8f4820682ac65988f426cf7?shared_conversation_id=6ac92692-6758-83e9-b1bf-17dc695462a0",
+      "mime_type": "image/png",
+      "size_bytes": 1782389,
+      "width": 1122,
+      "height": 1402,
+      "metadata": {
+        "dalle": {
+          "gen_id": "d9d0b881-b45d-4463-9505-0458cd26d0b5",
+          "prompt": "",
+          "serialization_title": "DALL-E generation metadata"
+        },
+        "generation": {
+          "gen_id": "d9d0b881-b45d-4463-9505-0458cd26d0b5",
+          "gen_size": "image",
+          "gen_size_v2": "48",
+          "height": 1402,
+          "width": 1122,
+          "transparent_background": false,
+          "is_sticker": false,
+          "serialization_title": "Image Generation metadata",
+          "orientation": "portrait",
+          "projection": "rectilinear"
+        },
+        "container_pixel_height": 1402,
+        "container_pixel_width": 1122,
+        "sanitized": false
+      }
+    }
+  },
+  {
+    "node_id": "3867c3fc-f90d-423e-8535-a43800918714",
+    "part_index": 0,
+    "part": {
+      "content_type": "image_asset_pointer",
+      "asset_pointer": "sediment://file_00000000ad6c81f593a03f42e35c4cda?shared_conversation_id=6ac92692-6758-83e9-b1bf-17dc695462a0",
+      "mime_type": "image/png",
+      "size_bytes": 2036907,
+      "width": 1122,
+      "height": 1402,
+      "metadata": {
+        "dalle": {
+          "gen_id": "cbe0a0ef-7b18-4414-bc4c-e97c8bfe89e2",
+          "prompt": "",
+          "serialization_title": "DALL-E generation metadata"
+        },
+        "generation": {
+          "gen_id": "cbe0a0ef-7b18-4414-bc4c-e97c8bfe89e2",
+          "gen_size": "image",
+          "gen_size_v2": "48",
+          "height": 1402,
+          "width": 1122,
+          "transparent_background": false,
+          "is_sticker": false,
+          "serialization_title": "Image Generation metadata",
+          "orientation": "portrait",
+          "projection": "rectilinear"
+        },
+        "container_pixel_height": 1402,
+        "container_pixel_width": 1122,
+        "sanitized": false
+      }
+    }
+  },
+  {
+    "node_id": "45f5e311-452a-4192-bd4f-239cdc5a7a7c",
+    "part_index": 0,
+    "part": {
+      "content_type": "image_asset_pointer",
+      "asset_pointer": "sediment://file_000000002b7081f8ae6a724e50f0aaaa?shared_conversation_id=6ac92692-6758-83e9-b1bf-17dc695462a0",
+      "mime_type": "image/png",
+      "size_bytes": 2032461,
+      "width": 1122,
+      "height": 1402,
+      "metadata": {
+        "dalle": {
+          "gen_id": "70cd513a-4f41-4256-b636-666e0bad5d44",
+          "prompt": "",
+          "serialization_title": "DALL-E generation metadata"
+        },
+        "generation": {
+          "gen_id": "70cd513a-4f41-4256-b636-666e0bad5d44",
+          "gen_size": "image",
+          "gen_size_v2": "48",
+          "height": 1402,
+          "width": 1122,
+          "transparent_background": false,
+          "is_sticker": false,
+          "serialization_title": "Image Generation metadata",
+          "orientation": "portrait",
+          "projection": "rectilinear"
+        },
+        "container_pixel_height": 1402,
+        "container_pixel_width": 1122,
+        "sanitized": false
+      }
+    }
+  },
+  {
+    "node_id": "0845e5cf-211f-4dad-8df5-c9493524fa77",
+    "part_index": 0,
+    "part": {
+      "content_type": "image_asset_pointer",
+      "asset_pointer": "sediment://file_000000007e5481f5b55b016f69a95bb9?shared_conversation_id=6ac92692-6758-83e9-b1bf-17dc695462a0",
+      "mime_type": "image/png",
+      "size_bytes": 2016395,
+      "width": 1122,
+      "height": 1402,
+      "metadata": {
+        "dalle": {
+          "gen_id": "f7563fd5-c2a2-4814-a10f-f652672f67a3",
+          "prompt": "",
+          "serialization_title": "DALL-E generation metadata"
+        },
+        "generation": {
+          "gen_id": "f7563fd5-c2a2-4814-a10f-f652672f67a3",
+          "gen_size": "image",
+          "gen_size_v2": "48",
+          "height": 1402,
+          "width": 1122,
+          "transparent_background": false,
+          "is_sticker": false,
+          "serialization_title": "Image Generation metadata",
+          "orientation": "portrait",
+          "projection": "rectilinear"
+        },
+        "container_pixel_height": 1402,
+        "container_pixel_width": 1122,
+        "sanitized": false
+      }
+    }
+  },
+  {
+    "node_id": "b8f15339-8577-444f-a307-fbf8fd61191e",
+    "part_index": 0,
+    "part": {
+      "content_type": "image_asset_pointer",
+      "asset_pointer": "sediment://file_00000000940481f5b9c36d076ba0dbe3?shared_conversation_id=6ac92692-6758-83e9-b1bf-17dc695462a0",
+      "mime_type": "image/png",
+      "size_bytes": 684704,
+      "width": 1448,
+      "height": 1086,
+      "metadata": {
+        "dalle": {
+          "gen_id": "9578f4f3-31c8-4a25-b1cf-737ceea20ce4",
+          "prompt": "",
+          "serialization_title": "DALL-E generation metadata"
+        },
+        "generation": {
+          "gen_id": "9578f4f3-31c8-4a25-b1cf-737ceea20ce4",
+          "gen_size": "image",
+          "gen_size_v2": "48",
+          "height": 1086,
+          "width": 1448,
+          "transparent_background": true,
+          "is_sticker": false,
+          "serialization_title": "Image Generation metadata",
+          "orientation": "landscape",
+          "projection": "rectilinear"
+        },
+        "container_pixel_height": 1086,
+        "container_pixel_width": 1448,
+        "sanitized": false
+      }
+    }
+  },
+  {
+    "node_id": "01820b2d-b11f-4220-81b4-a9275a2c5bc6",
+    "part_index": 0,
+    "part": {
+      "content_type": "image_asset_pointer",
+      "asset_pointer": "sediment://file_00000000940481f5b9c36d076ba0dbe3?shared_conversation_id=6ac92692-6758-83e9-b1bf-17dc695462a0",
+      "mime_type": "image/png",
+      "size_bytes": 684704,
+      "width": 1448,
+      "height": 1086,
+      "metadata": {
+        "dalle": {
+          "gen_id": "9578f4f3-31c8-4a25-b1cf-737ceea20ce4",
+          "prompt": "",
+          "serialization_title": "DALL-E generation metadata"
+        },
+        "generation": {
+          "gen_id": "9578f4f3-31c8-4a25-b1cf-737ceea20ce4",
+          "gen_size": "image",
+          "gen_size_v2": "48",
+          "height": 1086,
+          "width": 1448,
+          "transparent_background": true,
+          "is_sticker": false,
+          "serialization_title": "Image Generation metadata",
+          "orientation": "landscape",
+          "projection": "rectilinear"
+        },
+        "container_pixel_height": 1086,
+        "container_pixel_width": 1448,
+        "sanitized": false
+      }
+    }
+  }
+]
