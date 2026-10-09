@@ -1,0 +1,115 @@
+{
+  "version": "0.1.0",
+  "status": "CANDIDATE_UNVALIDATED_FRESH_SESSION",
+  "mode": "creative_context_router",
+  "authored_on": "2026-10-09",
+  "golden": {
+    "path": "transcripts/6ac92692-6758-83e9-b1bf-17dc695462a0/attachments/agent_figures_A_Folio(3).pdf",
+    "git_blob_sha": "c30236e10ec713854ec70b54c1171d5d62b0d297",
+    "authority": "visual_editorial_only",
+    "pptx_status": "known_broken_separate"
+  },
+  "packages": [
+    {
+      "name": "scope",
+      "version": "0.1.0",
+      "path": "harness/modules/scope/v0.1.0.md",
+      "git_blob_sha": "ec00d93c6454d4da77985e23b0d4d2c1cde91883"
+    },
+    {
+      "name": "intake",
+      "version": "0.1.0",
+      "path": "harness/modules/intake/v0.1.0.md",
+      "git_blob_sha": "815f5376efc81cff88f61f9414528c9946498aed"
+    },
+    {
+      "name": "narrative",
+      "version": "0.1.0",
+      "path": "harness/modules/narrative/v0.1.0.md",
+      "git_blob_sha": "7814bf5c3ef9fbcf8bf0699395b32f2a65fd5a45"
+    },
+    {
+      "name": "language",
+      "version": "0.1.0",
+      "path": "harness/modules/language/v0.1.0.md",
+      "git_blob_sha": "9445a2d38e02f9e0ed90bf7bc0c0a4fbcf383e90"
+    },
+    {
+      "name": "brand",
+      "version": "0.1.0",
+      "path": "harness/modules/brand/v0.1.0.md",
+      "git_blob_sha": "e554c1f914b14991541715423cc92717a3aa7d6a"
+    },
+    {
+      "name": "illustration",
+      "version": "0.1.0",
+      "path": "harness/modules/illustration/v0.1.0.md",
+      "git_blob_sha": "12618a444745cd316e125fc263924fa8bd18a8a5"
+    },
+    {
+      "name": "exemplars",
+      "version": "0.1.0",
+      "path": "harness/modules/exemplars/v0.1.0.md",
+      "git_blob_sha": "5e2d526a18b365f7275ba607420aca1b400c6fcf"
+    },
+    {
+      "name": "critic",
+      "version": "0.1.0",
+      "path": "harness/modules/critic/v0.1.0.md",
+      "git_blob_sha": "a91a2ba35bdd075909957b0665e8257266bbd154"
+    },
+    {
+      "name": "starter",
+      "version": "0.1.0",
+      "path": "harness/prompts/starter/v0.1.0.md",
+      "git_blob_sha": "0dda7d7b239e5a36060ff94a744fe552681e948d"
+    },
+    {
+      "name": "intake",
+      "version": "0.1.0",
+      "path": "harness/prompts/intake/v0.1.0.md",
+      "git_blob_sha": "50fe180b2283ed1bd09d957aa651d467b385a152"
+    },
+    {
+      "name": "story",
+      "version": "0.1.0",
+      "path": "harness/prompts/story/v0.1.0.md",
+      "git_blob_sha": "7121e717f5dd44342577d924e7e215ff58ab26bd"
+    },
+    {
+      "name": "storyboard",
+      "version": "0.1.0",
+      "path": "harness/prompts/storyboard/v0.1.0.md",
+      "git_blob_sha": "78ffedb78607731b105a9a9002dcf07faa173019"
+    },
+    {
+      "name": "critique",
+      "version": "0.1.0",
+      "path": "harness/prompts/critique/v0.1.0.md",
+      "git_blob_sha": "6d4fb131c2106756c581c848dad292f47792377a"
+    },
+    {
+      "name": "state-machine.v0.1.0.json",
+      "version": "0.1.0",
+      "path": "harness/router/state-machine.v0.1.0.json",
+      "git_blob_sha": "1ab6b35b6bd09b4763f00d95f5e51df350558a4a"
+    },
+    {
+      "name": "rules.v0.1.0.md",
+      "version": "0.1.0",
+      "path": "harness/router/rules.v0.1.0.md",
+      "git_blob_sha": "3c6944034de520e213e6c2e18d1cdd813bcb79be"
+    },
+    {
+      "name": "transition.v0.1.0.mjs",
+      "version": "0.1.0",
+      "path": "harness/router/transition.v0.1.0.mjs",
+      "git_blob_sha": "3962d20efef60ad1330d2375f29278d31996eb33"
+    }
+  ],
+  "acceptance": {
+    "human_accepted": false,
+    "fresh_session_evaluated": false,
+    "visual_golden_comparison_completed": false
+  }
+}

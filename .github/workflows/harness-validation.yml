@@ -1,0 +1,25 @@
+name: Harness static validation
+on:
+  push:
+    paths:
+      - 'harness/**'
+      - 'AGENTS.md'
+      - 'START_HERE.md'
+      - '.github/workflows/harness-validation.yml'
+  pull_request:
+    paths:
+      - 'harness/**'
+      - 'AGENTS.md'
+      - 'START_HERE.md'
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Validate pinned packages and golden artifact
+        run: node harness/evals/static_checks.v0.1.0.mjs
+      - name: Test state transition rules
+        run: node harness/evals/router_tests.v0.1.0.mjs

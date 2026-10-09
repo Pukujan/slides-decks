@@ -1,0 +1,294 @@
+{
+  "version": "0.1.0",
+  "status": "candidate_conversation_protocol",
+  "description": "Logical roles governed by approval-aware transitions, not autonomous agent processes.",
+  "roles": {
+    "governor": "scope",
+    "interviewer": "intake",
+    "editor": "narrative",
+    "copy_editor": "language",
+    "art_director": "brand",
+    "illustrator": "illustration",
+    "critic": "critic",
+    "producer": "render"
+  },
+  "gates": {
+    "story_ok": "Human approves a specific narrative angle and approximate count",
+    "copy_ok": "Human approves exact copy; its words become frozen",
+    "storyboard_ok": "Human approves composition and visual-storyboard plan",
+    "render_ok": "Human explicitly authorizes file/artifact generation",
+    "release_ok": "Human accepts the inspected final artifact for delivery"
+  },
+  "states": {
+    "intake": {
+      "owner": "interviewer",
+      "next": [
+        "clarification",
+        "narrative_options"
+      ],
+      "needs": [
+        "sources_or_story"
+      ]
+    },
+    "clarification": {
+      "owner": "interviewer",
+      "next": [
+        "intake"
+      ],
+      "needs": [
+        "human_answers_or_explicit_assumptions"
+      ]
+    },
+    "narrative_options": {
+      "owner": "editor",
+      "next": [
+        "human_story_gate"
+      ],
+      "needs": [
+        "resolved_intake_or_explicit_assumptions"
+      ]
+    },
+    "human_story_gate": {
+      "owner": "governor",
+      "next": [
+        "copy",
+        "narrative_options"
+      ],
+      "needs": [
+        "story_ok_or_human_rejection"
+      ]
+    },
+    "copy": {
+      "owner": "copy_editor",
+      "next": [
+        "copy_review"
+      ],
+      "needs": [
+        "story_ok"
+      ]
+    },
+    "copy_review": {
+      "owner": "critic",
+      "next": [
+        "human_copy_gate",
+        "copy"
+      ],
+      "needs": [
+        "review_of_voice_and_facts"
+      ]
+    },
+    "human_copy_gate": {
+      "owner": "governor",
+      "next": [
+        "storyboard",
+        "copy"
+      ],
+      "needs": [
+        "copy_ok_or_human_rejection"
+      ]
+    },
+    "storyboard": {
+      "owner": "art_director",
+      "next": [
+        "human_storyboard_gate"
+      ],
+      "needs": [
+        "story_ok",
+        "copy_ok"
+      ]
+    },
+    "human_storyboard_gate": {
+      "owner": "governor",
+      "next": [
+        "render_authorization",
+        "storyboard"
+      ],
+      "needs": [
+        "storyboard_ok_or_human_rejection"
+      ]
+    },
+    "render_authorization": {
+      "owner": "governor",
+      "next": [
+        "illustration_spec"
+      ],
+      "needs": [
+        "render_ok"
+      ]
+    },
+    "illustration_spec": {
+      "owner": "illustrator",
+      "next": [
+        "composition"
+      ],
+      "needs": [
+        "render_ok"
+      ]
+    },
+    "composition": {
+      "owner": "art_director",
+      "next": [
+        "render"
+      ],
+      "needs": [
+        "render_ok"
+      ]
+    },
+    "render": {
+      "owner": "producer",
+      "next": [
+        "critique"
+      ],
+      "needs": [
+        "render_ok"
+      ]
+    },
+    "critique": {
+      "owner": "critic",
+      "next": [
+        "regression",
+        "narrative_options",
+        "copy",
+        "storyboard",
+        "illustration_spec",
+        "composition",
+        "render"
+      ],
+      "needs": [
+        "artifact_inspected",
+        "defect_tickets_or_pass"
+      ]
+    },
+    "regression": {
+      "owner": "critic",
+      "next": [
+        "human_release_gate",
+        "narrative_options",
+        "copy",
+        "storyboard",
+        "illustration_spec",
+        "composition",
+        "render"
+      ],
+      "needs": [
+        "compare_against_accepted_history_and_actual_golden"
+      ]
+    },
+    "human_release_gate": {
+      "owner": "governor",
+      "next": [
+        "deliver"
+      ],
+      "needs": [
+        "release_ok"
+      ]
+    },
+    "deliver": {
+      "owner": "governor",
+      "next": [],
+      "needs": [
+        "release_ok",
+        "requested_destination_only"
+      ]
+    }
+  },
+  "transition_constraints": {
+    "approvals_required_for_target": {
+      "copy": [
+        "story_ok"
+      ],
+      "storyboard": [
+        "story_ok",
+        "copy_ok"
+      ],
+      "render_authorization": [
+        "storyboard_ok"
+      ],
+      "illustration_spec": [
+        "render_ok"
+      ],
+      "composition": [
+        "render_ok"
+      ],
+      "render": [
+        "render_ok"
+      ],
+      "critique": [
+        "render_ok"
+      ],
+      "regression": [
+        "render_ok"
+      ],
+      "human_release_gate": [
+        "regression_pass",
+        "golden_inspected"
+      ],
+      "deliver": [
+        "release_ok"
+      ]
+    },
+    "ticket_required_on_backward_from": [
+      "critique",
+      "regression"
+    ],
+    "human_rejection_required": [
+      "human_story_gate->narrative_options",
+      "human_copy_gate->copy",
+      "human_storyboard_gate->storyboard"
+    ],
+    "unblocking_input_required": [
+      "clarification->intake"
+    ],
+    "never_auto_create_artifact_before": "render_authorization",
+    "claims_of_gold_parity_require": "actual_golden_page_inspection",
+    "disallowed_auto_advance_across_human_gates": true
+  },
+  "revision_invalidation": {
+    "scope_changed": [
+      "scope_ok",
+      "story_ok",
+      "copy_ok",
+      "storyboard_ok",
+      "render_ok",
+      "release_ok"
+    ],
+    "facts_changed": [
+      "story_ok",
+      "copy_ok",
+      "storyboard_ok",
+      "render_ok",
+      "release_ok"
+    ],
+    "narrative_changed": [
+      "story_ok",
+      "copy_ok",
+      "storyboard_ok",
+      "render_ok",
+      "release_ok"
+    ],
+    "meaning_or_copy_changed": [
+      "copy_ok",
+      "storyboard_ok",
+      "render_ok",
+      "release_ok"
+    ],
+    "storyboard_changed": [
+      "storyboard_ok",
+      "render_ok",
+      "release_ok"
+    ],
+    "visual_scene_changed": [
+      "release_ok"
+    ],
+    "production_only_changed": [
+      "release_ok"
+    ],
+    "module_version_changed": [
+      "story_ok",
+      "copy_ok",
+      "storyboard_ok",
+      "render_ok",
+      "release_ok"
+    ]
+  }
+}

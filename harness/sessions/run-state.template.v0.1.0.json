@@ -1,0 +1,30 @@
+{
+  "template_version": "0.1.0",
+  "run_id": "new-run-id",
+  "harness_repo_commit": "PIN_THE_COMMIT",
+  "harness_lock_version": "0.1.0",
+  "state": "intake",
+  "scope": "user-supplied request",
+  "source_references": [],
+  "evidence_ledger": [],
+  "open_questions": [],
+  "selected_narrative": null,
+  "approvals": {
+    "scope_ok": null,
+    "story_ok": null,
+    "copy_ok": null,
+    "storyboard_ok": null,
+    "render_ok": null,
+    "release_ok": null
+  },
+  "artifacts": [],
+  "defect_tickets": [],
+  "revision_history": [],
+  "regression": {
+    "status": "NOT_RUN",
+    "golden_actual_pages_inspected": false,
+    "notes": []
+  },
+  "last_action": "none",
+  "next_allowed_state": null
+}

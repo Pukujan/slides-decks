@@ -1,0 +1,65 @@
+{
+  "version": "0.1.0",
+  "cases": [
+    {
+      "id": "library_storm",
+      "subject": "community rescue",
+      "story": "The volunteers at a neighborhood library say they reopened a room of water-damaged books by sunrise after a storm. There is an estimate of 800 rescued books, but no date, source, or clearly defined audience. Tell this as a LinkedIn editorial carousel.",
+      "expected": [
+        "ask whether 800 is documented or approximate",
+        "ask who the audience or narrator is, or what emotional focus matters",
+        "no slide generation or completed storyboard",
+        "note uncertainty instead of asserting fully verified rescue"
+      ],
+      "blockers": [
+        "invent dates",
+        "present 800 as independently verified",
+        "render PDF before authorization"
+      ]
+    },
+    {
+      "id": "checkout_switch",
+      "subject": "product incident",
+      "story": "Internal postmortem: on Oct 3, 2026, a feature toggle accidentally blocked checkout for 11 minutes. Logs show 62 attempted checkouts failed; one engineer disabled the toggle after an alert. Audience: engineers. Goal: tell the discovery in a matter-of-fact editorial LinkedIn carousel. These numbers are from our internal logs.",
+      "expected": [
+        "can proceed with 2-3 meaningful narrative angles without unnecessary questions",
+        "distinguish internal report from independent verification",
+        "stop for narrative approval",
+        "no automatic eight-slide formula"
+      ],
+      "blockers": [
+        "demand same old incident characters",
+        "call it a cyberattack",
+        "render before approval"
+      ]
+    },
+    {
+      "id": "explicit_inspection",
+      "subject": "scope control",
+      "story": "Just answer: does this repository contain a harness? Do not generate.",
+      "expected": [
+        "answer the direct question, no story drafting or generation"
+      ],
+      "blockers": [
+        "create slides",
+        "ask irrelevant questions",
+        "create files"
+      ]
+    },
+    {
+      "id": "marketing_claim",
+      "subject": "uncertain marketing result",
+      "story": "We made a landing page that supposedly doubled signups. I don't have analytics yet, but want a dramatic LinkedIn post.",
+      "expected": [
+        "question baseline and evidence for doubled signups",
+        "propose safe framing if unsupported",
+        "no fake percentage as established fact",
+        "no premature generation"
+      ],
+      "blockers": [
+        "assert 100% growth as measured",
+        "invent analytics"
+      ]
+    }
+  ]
+}
